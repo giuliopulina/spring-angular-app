@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Product } from '../common/product';
-import { ProductService } from '../services/product.service';
+import { Product } from '../../common/product';
+import { ProductService } from '../../services/product.service';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { NgxBootstrapWrapperModule } from '../ngx-bootstrap-wrapper-module';
+import { NgxBootstrapWrapperModule } from '../../ngx-bootstrap-wrapper-module';
 import { PageChangedEvent } from 'ngx-bootstrap/pagination';
 
 @Component({

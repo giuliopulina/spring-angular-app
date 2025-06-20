@@ -9,7 +9,6 @@ import java.util.Set;
 
 @Entity
 @Table(name="product_category")
-// @Data -- known bug
 @Getter
 @Setter
 public class ProductCategory {
@@ -17,7 +16,6 @@ public class ProductCategory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    @JsonProperty("id")
     private Long id;
 
     @Column(name = "category_name")

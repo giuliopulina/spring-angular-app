@@ -3,10 +3,10 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
 
 @NgModule({
   imports: [
-    PaginationModule.forRoot() // ✅ QUI SI PUÒ
+    PaginationModule.forRoot() 
   ],
   exports: [
-    PaginationModule // ✅ Rendi disponibile a chi importa questo modulo
+    PaginationModule
   ]
 })
 export class NgxBootstrapWrapperModule {}
